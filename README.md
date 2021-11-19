@@ -4,3 +4,5 @@ In this project, I designed a simple CNN model along with your own convolutional
 There are some helper codes a swell for this project. Helper Code (train_miniplaces.py and dataloader.py). See the comments in these files for more implementation details.  The original image resolution for images in MiniPlaces is 128x128. To make the training feasible, our data loader reduces the image resolution to 32x32. You can always assume this input resolution. Our data loader will also download the full dataset the first time you run train_miniplaces.py  Before the training procedure, we define the dataloader, model, optimizer, image transform and criterion. Execution of the training and testing in function train_model and test_model. 
 
 This implementation take one or two hours to run. In this project we explore building deep neural networks, including Convolutional Neural Networks (CNNs), using PyTorch. 
+
+The data set is not included since it uses web-scraping. 
